@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-pvmvve76p^#=kqdvf*e^$(#&kfc60^6)p7en!9uoaxcdl$fosu
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['exam-app-fabu.herokuapp.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -184,7 +184,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_CREDENTIALS = True
 ALLOWED_HOSTS = ['192.168.8.100', 'localhost',
-                 '127.0.0.1', '192.168.1.164', '192.168.100.30', '192.168.1.85', '192.168.0.101', '192.168.8.101', '192.168.0.102', '192.168.0.101']
+                 '127.0.0.1', '192.168.1.164', '192.168.100.30', '192.168.1.85', '192.168.0.101', '192.168.8.101', '192.168.0.102', '192.168.0.101', 'exam-app-fabu.herokuapp.com']
 
 
 REST_FRAMEWORK = {
